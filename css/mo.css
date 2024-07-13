@@ -1,0 +1,275 @@
+@media all and (max-width:767px) {
+
+    body,
+    html {
+        font-size: 12px;
+    }
+
+    section {
+        padding: 0 20px;
+    }
+
+    header {
+        padding: 20px 20px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .searchbox {
+        padding: 0 20px;
+    }
+
+    .searchbox.active {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .searchbox_keywords {
+        width: 90%;
+    }
+
+    .searchbox_input {
+        width: 90%;
+    }
+
+    .searchbox_mid {
+        padding-top: 30px;
+    }
+
+    .sb_title {
+        padding: 20px 30px;
+    }
+
+    .stock_con {
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+
+    .stock_con_wrap {
+        flex-direction: unset;
+        width: 100%;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .stock_con_wrap:last-child {
+        padding-bottom: 0;
+    }
+
+    .stock_left_btm,
+    .stock_cen_btm,
+    .stock_right_btm {
+        display: none;
+    }
+
+    .mo_menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 9998;
+        background: rgba(17, 17, 17, 1);
+    }
+
+    .mo_menu_logo {
+        width: 60px;
+        margin: 20px 20px;
+    }
+
+    .mo_menu_logo img {
+        width: 100%;
+    }
+
+    .mo_menu.active {
+        display: block;
+    }
+
+    .mo_menu_wrap {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .mo_menu_wrap li {
+        font-size: 1.875rem;
+        margin: 30px 0;
+        cursor: pointer;
+        opacity: 0.5;
+        font-family: 'CJ_B';
+    }
+
+    .mo_menu_wrap li:hover {
+        opacity: 1;
+    }
+
+    .menu-trigger,
+    .menu-trigger span {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+    }
+
+    .menu-trigger {
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 9999;
+    }
+
+    .menu-trigger span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .menu-trigger span:nth-of-type(1) {
+        top: 0;
+    }
+
+    .menu-trigger span:nth-of-type(2) {
+        top: 9px;
+    }
+
+    .menu-trigger span:nth-of-type(3) {
+        bottom: 0;
+    }
+
+    .menu-trigger.active-1 span:nth-of-type(1) {
+        -webkit-transform: translateY (9px) rotate (-45deg);
+        transform: translateY(9px) rotate(-45deg);
+    }
+
+    .menu-trigger.active-1 span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .menu-trigger.active-1 span:nth-of-type(3) {
+        -webkit-transform: translateY(-9px) rotate(45deg);
+        transform: translateY(-9px) rotate(45deg);
+    }
+
+    .page_panel {
+        display: none;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    #main_video {
+        height: 100%;
+    }
+
+    .sec01_video {
+        height: 100vh;
+    }
+
+    .sec01_text {
+        left: 20px;
+        bottom: 10%;
+    }
+
+    #Joyful_Moments,
+    #daily,
+    #sports,
+    #DELIGHTFUL_CHOICE,
+    #CJnow {
+        margin-top: 70px;
+    }
+
+    #employment {
+        margin-top: 70px;
+        padding: 0 20px;
+    }
+
+    .slide_text p {
+        font-size: 1rem;
+    }
+
+    .slide_text span {
+        font-size: 0.917rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-next,
+    .swiper-prev,
+    .swiper-next2,
+    .swiper-prev2,
+    .swiper-next3,
+    .swiper-prev3 {
+        display: none !important;
+    }
+
+    #DELIGHTFUL_CHOICE {
+        height: 100%;
+    }
+
+    .sec05_video {
+        height: 400px;
+    }
+
+    .sec05_text h1 {
+        font-size: 2.5rem;
+    }
+
+    .sec05_text p {
+        padding-top: 10px;
+    }
+
+
+    .sec07_btn a::after {
+        padding-bottom: 0;
+    }
+
+    .sec07_con img {
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .sec07_text_top h2 {
+        width: 80%;
+    }
+
+    footer {
+        padding-top: 70px;
+    }
+
+    .footer_wrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .family_site a::after {
+        padding-top: 0px;
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer_icon {
+        padding-top: 30px;
+    }
+
+    .family_site_on.active {
+        height: 137px;
+        top: -150px;
+        width: 90px;
+    }
+
+    .family_site_on {
+        background-color: #97989a;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

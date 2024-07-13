@@ -1,0 +1,104 @@
+@media all and (max-width:1399px) {
+    .note_search_icon {
+        display: block;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .note_search_icon img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .sec07_text_top p {
+        padding-bottom: 5px;
+    }
+
+    .sec07_text_top h2 {
+        line-height: 40px;
+        font-size: 1.875rem;
+    }
+
+    #employment {
+        padding: 0 100px 0 200px;
+    }
+}
+
+/* 1400px */
+
+@media all and (max-width: 1279px) {
+
+    body,
+    html {
+        font-size: 15px;
+    }
+
+    .gnb li {
+        padding: 0 20px;
+    }
+
+    .sec07_text_top p {
+        padding-bottom: 5px;
+    }
+
+    .sec07_text_top h2 {
+        white-space: unset;
+        width: 80%;
+    }
+
+    .sub_language {
+        height: 89px;
+    }
+
+}
+
+/* 1280px */
+
+@media all and (max-width:1023px) {
+
+    body,
+    html {
+        font-size: 14px;
+    }
+
+    .gnb_wrap {
+        display: none;
+    }
+
+    .sec07_text {
+        padding: 20px;
+    }
+
+    .sec07_text_top h2 {
+        white-space: unset;
+        width: 100%;
+        font-size: 1.25rem;
+        line-height: 25px;
+        width: 70%;
+    }
+
+    .sec07_text_top p {
+        display: none;
+    }
+
+    .panel_back {
+        padding: 20px 20px;
+    }
+
+    .sub_language {
+        height: 84px;
+    }
+
+    .sec07_btn a::after {
+        padding-bottom: 1px;
+    }
+
+    .page_panel {
+        width: 600px;
+    }
+
+}

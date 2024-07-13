@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="./img/logo.svg" sizes="16x16">
+
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/note.css">
+    <link rel="stylesheet" href="css/mo.css">
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header>
+
+            <div class="header_btmline">
+                <div class="focus-line"></div>
+            </div>
+
+            <div class="logo"><a href="javascript:;"><img src="img/logo.svg" alt="로고이미지"></a></div>
+
+            <div class="gnb_wrap">
+                <ul class="gnb">
+                    <li data-key="a"><a href="javascript:;" data-key="a">브랜드 CJ</a>
+                        <ul class="sub_gnb subgnb1" data-key="a">
+                            <li><a href="javascript:;">브랜드 스토리</a></li>
+                            <li><a href="javascript:;">브랜드 콘텐츠</a></li>
+                            <li><a href="javascript:;">스포츠</a></li>
+                        </ul>
+                    </li>
+                    <li data-key="b"><a href="javascript:;" data-key="b">지속가능한 일상</a>
+                        <ul class="sub_gnb subgnb2" data-key="b">
+                            <li><a href="javascript:;">우리의 약속</a></li>
+                            <li><a href="javascript:;">ESG 활동과 성과</a></li>
+                            <li><a href="javascript:;">CJ 나눔재단</a></li>
+                            <li><a href="javascript:;">CJ 문화재단</a></li>
+                            <li><a href="javascript:;">윤리경영</a></li>
+                        </ul>
+                    </li>
+                    <li data-key="c"><a href="javascript:;" data-key="c">CJ그룹</a>
+                        <ul class="sub_gnb subgnb3" data-key="c">
+                            <li><a href="javascript:;">소개</a></li>
+                            <li><a href="javascript:;">연혁</a></li>
+                            <li><a href="javascript:;">계열사</a></li>
+                            <li><a href="javascript:;">글로벌</a></li>
+                            <li><a href="javascript:;">투자정보</a></li>
+                        </ul>
+                    </li>
+                    <li data-key="d"><a href="javascript:;" data-key="d">인재채용</a>
+                        <ul class="sub_gnb subgnb4" data-key="d">
+                            <li><a href="javascript:;">채용공고</a></li>
+                            <li><a href="javascript:;">직무정보</a></li>
+                            <li><a href="javascript:;">CJ인 인터뷰</a></li>
+                            <li><a href="javascript:;">Q&A</a></li>
+                            <li><a href="javascript:;">채용공지</a></li>
+                        </ul>
+                    </li>
+                    <li data-key="e"><a href="javascript:;" data-key="e">CJ뉴스룸</a>
+                        <ul class="sub_gnb subgnb5" data-key="e">
+                            <li><a href="javascript:;">보도자료</a></li>
+                            <li><a href="javascript:;">언론보도</a></li>
+                            <li><a href="javascript:;">이미지 라이브러리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header_right">
+                <div class="search">
+                    <div class="text_roller_wrap">
+                        <ul class="text_roller">
+                            <li>#CJ 올리브영</li>
+                            <li>#비비고</li>
+                            <li>#CJ 제일제당</li>
+                            <li>#CJ 온스타일</li>
+                            <li>#CJ 올리브영</li>
+                        </ul>
+                        <img src="img/icon/검색icon.png" alt="검색아이콘">
+                    </div>
+                </div>
+
+                <div class="note_search_icon"><img src="img/icon/검색icon.png" alt="검색아이콘"></div>
+
+                <div class="language">
+                    <div class="kr"><a href="javascript:;">KR</a></div>
+                    <ul class="sub_language">
+                        <li><a href="javascript:;">JP</a></li>
+                        <li><a href="javascript:;">CN</a></li>
+                        <li><a href="javascript:;">VN</a></li>
+                    </ul>
+                </div>
+
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+            </div>
+
+            <div class="searchbox_back">
+                <div class="searchbox">
+                    <div class="searchbox_top">
+                        <div class="searchbox_input">
+                            <input type="text" placeholder="검색어를 입력하세요." autofocus>
+                            <img src="img/icon/검색icon(click).png" alt="검색">
+                        </div>
+                        <img src="img/icon/close_icon.png" alt="닫기">
+                    </div>
+
+                    <ul class="searchbox_keywords">
+                        <li><a href="javascript:;"># THE CJ CUP</a></li>
+                        <li><a href="javascript:;"># THE CJ CUP Byron Nelson</a></li>
+                        <li><a href="javascript:;"># CJ올리브영</a></li>
+                        <li><a href="javascript:;"># CJ제일제당</a></li>
+                        <li><a href="javascript:;"># CJ온스타일</a></li>
+                        <li><a href="javascript:;"># KCON</a></li>
+                        <li><a href="javascript:;"># CJ ENM</a></li>
+                        <li><a href="javascript:;"># CJ대한통운</a></li>
+                        <li><a href="javascript:;"># CJ 4DPLEX</a></li>
+                        <li><a href="javascript:;"># 비비고</a></li>
+                    </ul>
+
+                    <div class="searchbox_mid">
+                        <div class="mid_left"><img src="img/search_img1.png" alt="서치 이미지"></div>
+                        <div class="mid_right"><img src="img/search_img2.png" alt="서치 이미지"></div>
+                    </div>
+
+                    <div class="searchbox_bottom">
+                        <div class="stock">
+                            <div class="searchbox_title sb_title">
+                                <h1>주가정보</h1>
+                                <p><a href="javascript:;">주가정보 바로가기</a></p>
+                            </div>
+
+                            <div class="stock_con">
+                                <div class="stock_left stock_con_wrap">
+                                    <div class="stock_left_top stock_con_top">
+                                        <p>현재가</p>
+                                    </div>
+                                    <div class="stock_left_mid stock_con_mid">145,550</div>
+                                    <div class="stock_left_btm">
+                                        <p>전일대비<span>12,700</span></p>
+                                        <p>등락률<span>9.56%</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="stock_cen stock_con_wrap">
+                                    <div class="stock_cen_top stock_con_top">
+                                        <p>코스피 KOSPI</p>
+                                    </div>
+                                    <div class="stock_cen_mid stock_con_mid">2,727.63</div>
+                                    <div class="stock_cen_btm">
+                                        <p>15.49</p>
+                                    </div>
+                                </div>
+
+                                <div class="stock_right stock_con_wrap">
+                                    <div class="stock_right_top stock_con_top">
+                                        <p>코스닥 KOSDAQ</p>
+                                    </div>
+                                    <div class="stock_right_mid stock_con_mid">864.16</div>
+                                    <div class="stock_right_btm">
+                                        <p>-5.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="news">
+                            <div class="news_title sb_title">
+                                <h1>뉴스</h1>
+                                <p><a href="javascript:;">CJ뉴스룸 더 보기</a></p>
+                            </div>
+
+                            <div class="news_con">
+                                <div class="news_text">
+                                    <p><a href="javascript:;">CJ올리브영, K뷰티 체험 특화매장 '홍대타운' 그랜드 오픈</a></p>
+                                    <span>2024.04.25</span>
+                                </div>
+                                <div class="news_text">
+                                    <p><a href="javascript:;">티빙, 26일(금) 티빙슈퍼매치 진행 "NC vs 롯데, 불 붙은 낙동강 더비, 명승부 예고"</a>
+                                    </p>
+                                    <span>2024.04.25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mo_menu">
+                <div class="mo_menu_logo"><img src="img/logo.svg" alt="로고이미지"></div>
+                <ul class="mo_menu_wrap">
+                    <li>브랜드 CJ</li>
+                    <li>지속가능한 일상</li>
+                    <li>CJ그룹</li>
+                    <li>인재채용</li>
+                    <li>CJ뉴스룸</li>
+                </ul>
+            </div>
+
+        </header> <!-- header -->
+
+        <section id="main_video">
+            <div class="dimmed_top"></div>
+
+            <div class="sec01_video">
+                <video src="img/video/CJ, A Delightful Choice for you and your world.mp4" autoplay muted loop></video>
+
+                <div class="sec01_text">
+                    <h1>KCON JAPAN 2024</h1>
+                </div>
+            </div>
+
+            <div class="dimmed_btm"></div>
+        </section> <!-- sec01 -->
+
+        <section id="Joyful_Moments">
+            <div class="title">Joyful Moments</div>
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img1.png" data-pre="img/sec02/sec02_preview1.webp"
+                                    data-img="img/sec02/sec02_img1.png" alt="콘텐츠이미지">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">K-POP</p>
+                            <p class="slide_text_mid">[KCON JAPAN 2024] DIVE INTO THE REAL K-POP🎤✨</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#DELIGHTFULCHOICE</span>
+                                <span>#ENJOYTHEREALK</span>
+                                <span>#KCON</span>
+                                <span>#KCONJAPAN2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img2.png" data-pre="img/sec02/sec02_preview2.webp"
+                                    data-img="img/sec02/sec02_img2.png" alt="콘텐츠이미지" class="slide_img2">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">K-POP</p>
+                            <p class="slide_text_mid">[KCON JAPAN 2024] ENJOY THE REAL K-Beauty💄💖</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#DELIGHTFULCHOICE</span>
+                                <span>#ENJOYTHEREALK</span>
+                                <span>#OLIVEYOUNG</span>
+                                <span>#WAKEMAKE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img3.png" data-pre="img/sec02/sec02_preview3.webp"
+                                    data-img="img/sec02/sec02_img3.png" alt="콘텐츠이미지" class="slide_img3">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">K-POP</p>
+                            <p class="slide_text_mid">[KCON JAPAN 2024] ENJOY THE REAL K-Food 🥟</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#DELIGHTFULCHOICE</span>
+                                <span>#ENJOYTHEREALK</span>
+                                <span>#OLIVEYOUNG</span>
+                                <span>#bibigo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img4.png" data-pre="img/sec02/sec02_preview4.webp"
+                                    data-img="img/sec02/sec02_img4.png" alt="콘텐츠이미지" class="slide_img4">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">[THE CJ CUP Byron Nelson]</br>모두의 Bridge to Realization 🎈</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#THE CJ CUP Byron Nelson</span>
+                                <span>#Golf</span>
+                                <span>#골프</span>
+                                <span>#OnlyOne</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img5.png" data-pre="img/sec02/sec02_preview5.webp"
+                                    data-img="img/sec02/sec02_img5.png" alt="콘텐츠이미지" class="slide_img5">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">[THE CJ CUP Byron Nelson]</br>2024년 챔피언을 소개합니다🏆</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#THE CJ CUP Byron Nelson</span>
+                                <span>#Champion</span>
+                                <span>#Golf</span>
+                                <span>#OnlyOne</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img6.png" data-pre="img/sec02/sec02_preview6.webp"
+                                    data-img="img/sec02/sec02_img6.png" alt="콘텐츠이미지" class="slide_img6">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">[THE CJ CUP Byron Nelson]</br>비비고, 대회를 넘어 DALLAS의 일상으로</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#THE CJ CUP Byron Nelson</span>
+                                <span>#Golf</span>
+                                <span>#골프</span>
+                                <span>#GlobalNo1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec02/sec02_img7.png" data-pre="img/sec02/sec02_preview7.webp"
+                                    data-img="img/sec02/sec02_img7.png" alt="콘텐츠이미지" class="slide_img7">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">[THE CJ CUP Byron Nelson]</br>CJ, 미국 골프의 전설을 만나다👀</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#THE CJ CUP Byron Nelson</span>
+                                <span>#Golf</span>
+                                <span>#골프</span>
+                                <span>#GlobalNo1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"><img src="img/icon/btnarrow.png"></div>
+            <div class="swiper-button-prev"><img src="img/icon/btnarrow.png"></div>
+
+            <div class="aside">
+                <ul class="aside_con1 aside_con">브랜드 CJ
+                    <li><a href="javascript:;">브랜드 스토리</a></li>
+                    <li><a href="javascript:;">브랜드 콘텐츠</a></li>
+                    <li><a href="javascript:;">스포츠</a></li>
+                </ul>
+                <ul class="aside_con2 aside_con">CJ 그룹
+                    <li><a href="javascript:;">소개</a></li>
+                    <li><a href="javascript:;">계열사</a></li>
+                    <li><a href="javascript:;">인재채용</a></li>
+                </ul>
+            </div>
+
+        </section> <!-- sec02 -->
+
+        <section id="daily">
+            <div class="title">함께 만들어 나가는 지속가능한 일상</div>
+
+            <div class="swiper second" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide sec03_slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec03/sec03_img1.webp" alt="콘텐츠이미지" class="sec03_slide_img1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec03_slide4">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec03/sec03_img4.webp" data-pre="img/sec03/sec03_pre4.webp"
+                                    data-img="img/sec03/sec03_img4.webp" alt="콘텐츠이미지" class="sec03_slide_img4">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SUSTAINABILITY</p>
+                            <p class="slide_text_mid">[만약에 말야] 플라스틱으로 태어나면 어쩔티비? 3년차 커플의 첫 해외여행! but 너무 쿨한 현실 대화 ⚠️우리
+                                싸우는거 아니에요⚠️</p>
+                            <div class="slide_text_btm">
+                                <span>#햇반용기수거서비스</span>
+                                <span>#노플라스틱</span>
+                                <span>#스마트영수증</span>
+                                <span>#지구지키기</span>
+                                <span>#ESG경영</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec03_slide2">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec03/sec03_img2.webp" alt="콘텐츠이미지" class="sec03_slide_img2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec03_slide3">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec03/sec03_img3.webp" alt="콘텐츠이미지" class="sec03_slide_img3">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-next"><img src="img/icon/btnarrow.png"></div>
+            <div class="swiper-prev"><img src="img/icon/btnarrow.png"></div>
+
+        </section> <!-- sec03 -->
+
+        <section id="sports">
+
+            <div class="title">스포츠, 가능성에 대한 꿈과 도전</div>
+
+            <div class="swiper third" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide sec04_slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img1.webp" data-pre="img/sec04/sec04_pre1.webp"
+                                    data-img="img/sec04/sec04_img1.webp" alt="콘텐츠이미지" class="sec04_slide_img1">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">Global No.1의 꿈을 향한 황선우 선수의 도전!</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#GlobalNo1</span>
+                                <span>#ONLYONEK</span>
+                                <span>#꿈</span>
+                                <span>#도전</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec04_slide2">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img2.webp" data-pre="img/sec04/sec04_pre2.webp"
+                                    data-img="img/sec04/sec04_img2.webp" alt="콘텐츠이미지" class="sec04_slide_img2">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">Global No.1의 꿈을 향한 박소현 선수, 구연우 선수의 도전! 🥇</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#GlobalNo1</span>
+                                <span>#ONLYONEK</span>
+                                <span>#꿈</span>
+                                <span>#도전</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec04_slide3">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img3.webp" data-pre="img/sec04/sec04_pre3.webp"
+                                    data-img="img/sec04/sec04_img3.webp" alt="콘텐츠이미지" class="sec04_slide_img3">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">Global No.1의 꿈을 향한 김헌우(CJ제일제당, 36),전지예(CJ제일제당, 24) 선수의 도전!🤸‍♂
+                            </p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#GlobalNo1</span>
+                                <span>#ONLYONEK</span>
+                                <span>#꿈</span>
+                                <span>#도전</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec04_slide4">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img4.webp" alt="콘텐츠이미지" class="sec04_slide_img4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec04_slide5">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img5.webp" data-pre="img/sec04/sec04_pre5.webp"
+                                    data-img="img/sec04/sec04_img5.webp" alt="콘텐츠이미지" class="sec04_slide_img5">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">Global No.1의 꿈을 향한 김시우 선수, 임성재 선수, 임지유 선수의 도전! 🏌🏻🏌🏻‍♂️🏌🏻‍♀️
+                            </p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#GlobalNo1</span>
+                                <span>#ONLYONEK</span>
+                                <span>#꿈</span>
+                                <span>#도전</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec04_slide6">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec04/sec04_img6.webp" data-pre="img/sec04/sec04_pre6.webp"
+                                    data-img="img/sec04/sec04_img6.webp" alt="콘텐츠이미지" class="sec04_slide_img6">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">SPORTS</p>
+                            <p class="slide_text_mid">베트남 태권도 국가대표팀의 꿈과 도전! 🏆</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ</span>
+                                <span>#GlobalNo1</span>
+                                <span>#ONLYONEK</span>
+                                <span>#꿈</span>
+                                <span>#도전</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-next2"><img src="img/icon/btnarrow.png"></div>
+            <div class="swiper-prev2"><img src="img/icon/btnarrow.png"></div>
+
+
+        </section><!-- sec04 -->
+
+        <section id="DELIGHTFUL_CHOICE">
+
+            <div class="dimmed_top"></div>
+
+            <div class="sec01_video sec05_video">
+                <video src="img/video/mnet_mama 2023MAMA CJ MAKES ONE.mp4" autoplay muted loop></video>
+
+                <div class="sec01_text sec05_text">
+                    <h1>DELIGHTFUL CHOICE</h1>
+                    <p>For you and your world</p>
+                </div>
+            </div>
+
+            <div class="dimmed_btm"></div>
+
+        </section><!-- sec05 -->
+
+        <section id="CJnow">
+
+            <div class="title">CJ, NOW</div>
+
+            <div class="swiper fourth" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide sec06_slide">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec06/sec06_img1.webp" data-pre="img/sec06/sec06_pre1.webp"
+                                    data-img="img/sec06/sec06_img1.webp" alt="콘텐츠이미지" class="sec06_slide_img1">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">CONTENTS</p>
+                            <p class="slide_text_mid">[멍.확.행] EP.06 (⚠️심쿵주의) 크리스마스🎄에 눈❄️이 올고양? 고양이🐈 와 함께 트리멍 할 사람⁉️
+                            </p>
+                            <div class="slide_text_btm">
+                                <span>#멍확행</span>
+                                <span>#크리스마스</span>
+                                <span>#christmas</span>
+                                <span>#고양이</span>
+                                <span>#cat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec06_slide2">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec06/sec06_img2.webp" data-pre="img/sec06/sec06_pre2.webp"
+                                    data-img="img/sec06/sec06_img2.webp" alt="콘텐츠이미지" class="sec06_slide_img2">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_top">HEALTH & BEAUTY</p>
+                            <p class="slide_text_mid">[홈스커버리] EP.05 산스장 대신 홈트장! 아빠가 30년만에 모래주머니 벗은 사연?👯‍♂️‍</p>
+                            <div class="slide_text_btm">
+                                <span>#CJ유튜브</span>
+                                <span>#홈스커버리</span>
+                                <span>#홈트레이닝</span>
+                                <span>#홈트</span>
+                                <span>#다이어트</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec06_slide3">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec06/sec06_img3.png" alt="콘텐츠이미지" class="sec06_slide_img3">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_mid">CJ올리브영, 상생경영에 3,000억원 투입…K뷰티 산업 생태계·中企 성장 지원</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide sec06_slide4">
+                        <div class="slide_con">
+                            <div class="slide_img">
+                                <img src="img/sec06/sec06_img4.png" alt="콘텐츠이미지" class="sec06_slide_img4">
+                            </div>
+                        </div>
+                        <div class="slide_text">
+                            <p class="slide_text_mid">K푸드 열풍, 그 시작은 설탕이었다</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-next3"><img src="img/icon/btnarrow.png"></div>
+            <div class="swiper-prev3"><img src="img/icon/btnarrow.png"></div>
+
+
+        </section><!-- sec06 -->
+
+        <section id="employment">
+
+            <div class="sec07_con">
+                <img src="img/sec07/sec07_img.png" alt="면접채용 이미지">
+                <div class="sec07_text">
+                    <div class="sec07_text_top">
+                        <p>DESIGN YOUR GROWTH</p>
+                        <h2>내일의 나를 위한 멋진 선택,
+                            당신의 도전을
+                            CJ와 함께 하세요</h2>
+                    </div>
+                    <div class="sec07_btn"><a href="javascript:;">채용 바로가기</a></div>
+                </div>
+            </div>
+
+        </section><!-- sec07 -->
+
+        <div class="page_panel">
+            <div class="panel_wrap">
+                <div class="panel active">
+                    <div class="panel_back"><a href="#Joyful_Moments">Joyful Moments</a></div>
+                </div>
+                <div class="panel">
+                    <div class="panel_back"><a href="#daily">지속가능한 일상</a></div>
+                </div>
+                <div class="panel">
+                    <div class="panel_back"><a href="#sports">스포츠</a></div>
+                </div>
+                <div class="panel">
+                    <div class="panel_back"><a href="#CJnow">CJ, NOW</a></div>
+                </div>
+                <div class="panel">
+                    <div class="panel_back"><a href="#employment">인재채용</a></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div><!-- end -->
+
+    <footer>
+        <div class="footer_wrap">
+
+            <div class="footer_left">
+                <div class="footer_logo"><img src="img/logo.svg" alt="로고이미지"></div>
+
+                <div class="footer_icon">
+                    <a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                            <path d="M11.4507 15.3245L15.4764 12.9996L11.4507 10.6748V15.3245Z" fill="#666D7A">
+                            </path>
+                            <path
+                                d="M18.941 0H7.059C3.17633 0 0 3.20233 0 7.11533V18.8847C0 22.7977 3.17633 26 7.059 26H18.941C22.8237 26 26 22.7977 26 18.8847V7.11533C26 3.20233 22.8237 0 18.941 0ZM20.4252 16.731C20.2475 17.3983 19.721 17.9227 19.0558 18.1003C17.8468 18.4232 13.0022 18.4232 13.0022 18.4232C13.0022 18.4232 8.15533 18.4232 6.9485 18.1003C6.28117 17.9227 5.75683 17.3962 5.57917 16.731C5.25633 15.522 5.25633 13 5.25633 13C5.25633 13 5.25633 10.478 5.57917 9.269C5.75683 8.60167 6.28333 8.07733 6.9485 7.89967C8.1575 7.57683 13.0022 7.57683 13.0022 7.57683C13.0022 7.57683 17.849 7.57683 19.0558 7.89967C19.7232 8.07733 20.2475 8.60383 20.4252 9.269C20.748 10.478 20.748 13 20.748 13C20.748 13 20.748 15.522 20.4252 16.731Z"
+                                fill="#666D7A"></path>
+                        </svg>
+                        <!-- <img src="./img/icon/youtube.svg" alt=""> -->
+                    </a>
+                    <a href="javascript:;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26" fill="none">
+                            <path
+                                d="M18.6368 0.0136719H7.64543C3.50112 0.0136719 0.141113 3.37368 0.141113 7.51799V18.5094C0.141113 22.6537 3.50112 26.0137 7.64543 26.0137H18.6368C22.7811 26.0137 26.1411 22.6537 26.1411 18.5094V7.51799C26.143 3.37368 22.7829 0.0136719 18.6368 0.0136719ZM23.7477 18.7027C23.7477 21.4533 21.5181 23.6847 18.7657 23.6847H7.51656C4.76595 23.6847 2.53454 21.4551 2.53454 18.7027V7.45355C2.53454 4.70295 4.76411 2.47154 7.51656 2.47154H18.7657C21.5163 2.47154 23.7477 4.70111 23.7477 7.45355V18.7027Z"
+                                fill="#666D7A"></path>
+                            <path
+                                d="M13.141 6.33205C9.41467 6.33205 6.39526 9.35329 6.39526 13.0778C6.39526 16.8024 9.41651 19.8236 13.141 19.8236C16.8656 19.8236 19.8868 16.8024 19.8868 13.0778C19.8868 9.35329 16.8656 6.33205 13.141 6.33205ZM13.141 17.4523C10.7255 17.4523 8.76844 15.4934 8.76844 13.0797C8.76844 10.666 10.7274 8.70706 13.141 8.70706C15.5547 8.70706 17.5137 10.666 17.5137 13.0797C17.5137 15.4934 15.5547 17.4523 13.141 17.4523Z"
+                                fill="#666D7A"></path>
+                            <path
+                                d="M20.1129 7.65018C20.9817 7.65018 21.6861 6.94586 21.6861 6.07705C21.6861 5.20823 20.9817 4.50391 20.1129 4.50391C19.2441 4.50391 18.5398 5.20823 18.5398 6.07705C18.5398 6.94586 19.2441 7.65018 20.1129 7.65018Z"
+                                fill="#666D7A"></path>
+                        </svg>
+                    </a>
+                    <a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                            <path
+                                d="M18.941 0H7.059C3.17633 0 0 3.20233 0 7.11533V18.8847C0 22.7977 3.17633 26 7.059 26H18.941C22.8237 26 26 22.7977 26 18.8847V7.11533C26 3.20233 22.8237 0 18.941 0ZM17.2467 7.51183H15.7018C14.0032 7.51183 14.3108 8.91367 14.3108 8.91367V10.7813H17.2445L16.8588 13.8168H14.3108V21.2897H11.2212V13.8168H8.749V10.7813H11.2212V8.13367C11.2212 3.61833 17.2445 4.86417 17.2445 4.86417V7.51183H17.2467Z"
+                                fill="#666D7A"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="copyright">©씨제이㈜. ALL RIGHTS RESERVED.</div>
+            </div>
+
+            <div class="footer_right">
+                <div class="family_site"><a href="javascript:">계열사 바로가기</a>
+                    <ul class="family_site_on">
+                        <li>CJ 제일제당</li>
+                        <li>CJ 대한통운</li>
+                        <li>CJ 올리브영</li>
+                        <li>CJ CNM</li>
+                        <li>TVING</li>
+                    </ul>
+                </div>
+
+                <ul class="info">
+                    <li><a href="javascript:;">개인정보처리방침</a></li>
+                    <li><a href="javascript:;">쿠키정책</a></li>
+                    <li><a href="javascript:;">사이트맵</a></li>
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;">공지사항</a></li>
+                    <li><a href="javascript:;">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/jquery.transit.min.js"></script>
+    <script type="text/javascript" src="js/CJ.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    font-family: 'CJ_R';
+    background: rgb(29, 31, 34);
+}
+
+#wrap {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 180px;
+}
+
+#main_video {
+    padding: 0;
+}
+
+.title {
+    font-size: 1.875rem;
+    padding: 0 0 30px 20px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* 노토산스 폰트 */
+
+@font-face {
+    font-family: 'CJ_R';
+    font-style: normal;
+    src: url(../font/CJONLYONENEWbodyRegular.ttf);
+}
+
+@font-face {
+    font-family: 'CJ_M';
+    font-style: normal;
+    src: url(../font/CJONLYONENEWtitleMedium.ttf);
+}
+
+@font-face {
+    font-family: 'CJ_B';
+    font-style: normal;
+    src: url(../font/CJONLYONENEWtitleBold.ttf);
+}
+
+/* CJ폰트 */
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #dededebf;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00000080;
+    border-radius: 5px;
+}
